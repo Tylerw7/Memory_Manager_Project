@@ -12,5 +12,20 @@ int main()
 
     pool.memory = malloc(MEM_SIZE(pool.block_size, pool.num_blocks));
 
+    mm_pool_init(&pool);
+    mm_show_stats(&pool);
+
+    void *a = mm_allocate(&pool);
+    void *b = mm_allocate(&pool);
+
+    mm_show_stats(&pool);
+
+    mm_free(a, &pool);
+    mm_show_stats(&pool);
+
+    free(pool.memory);
+
+
+
     return 0;
 }
