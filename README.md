@@ -9,9 +9,7 @@
 
 ## Overview
 
-**C Memory Manager** is a custom memory pool allocator written in C. It allows efficient management of memory by preallocating a fixed-size pool of memory blocks, providing fast allocation and deallocation without relying on the standard `malloc` and `free` functions.  
-
-This project is ideal for embedded systems, real-time applications, or performance-critical software where dynamic memory fragmentation must be minimized.
+**C Memory Manager** is a project I worked on to create my own memory manager written in C. This project helped me to better understand how memory is stored in the HEAP, this program provides fast allocation and deallocation without relying on the standard `malloc` and `free` functions.  
 
 ---
 
@@ -48,3 +46,10 @@ This project is ideal for embedded systems, real-time applications, or performan
 ```bash
 git clone https://github.com/yourusername/c-memory-manager.git
 cd c-memory-manager
+
+
+##Compile Instructions
+- In the root directory compile the main.c file in the terminal
+
+gcc main.c mm.c -o memory_manager
+
