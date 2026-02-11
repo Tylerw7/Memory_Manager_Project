@@ -30,12 +30,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Compile Instructions](#compile-instructions)
-- [Usage](#usage)
-- [API](#api)
-- [Memory Layout](#memory-layout)
-- [Example](#example)
-- [Contributing](#contributing)
-- [License](#license)
+  
 
 ---
 
@@ -44,7 +39,7 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/c-memory-manager.git
+[git clone https://github.com/yourusername/c-memory-manager.git](https://github.com/Tylerw7/Memory_Manager_Project.git)
 cd c-memory-manager
 
 
