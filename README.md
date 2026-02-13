@@ -46,5 +46,8 @@ cd c-memory-manager
 ##Compile Instructions
 - In the root directory compile the main.c file in the terminal
 
-gcc main.c mm.c -o memory_manager
+gcc main.c -o main
+
+##Run the main file
+./main
 
